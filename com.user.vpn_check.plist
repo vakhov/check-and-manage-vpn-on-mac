@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>com.user.vpn_check</string>
+        <key>ProgramArguments</key>
+        <array>
+            <string>/opt/homebrew/bin/python3</string>
+            <string>/Users/a.vakhov/projects/python/vpn_check/vpn_check.py</string>
+        </array>
+        <key>RunAtLoad</key>
+        <true/>
+        <key>StandardErrorPath</key>
+        <string>/tmp/com.user.vpn_check.err</string>
+        <key>StandardOutPath</key>
+        <string>/tmp/com.user.vpn_check.out</string>
+    </dict>
+</plist>
